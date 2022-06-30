@@ -18,8 +18,8 @@
 
 
 
-## 1. `https://bright-task.herokuapp.com/api/signup` <br>
-To Reigster the user 
+## 1. `http://127.0.0.1:8000/api/signup` <br>
+To Register the user 
 ### Request 
 ```http
 POST /api/signup
@@ -51,7 +51,7 @@ Sample Response Body in Json Form
 
 
 
-## 2. `https://bright-task.herokuapp.com/api/login` <br>
+## 2. `http://127.0.0.1:8000/api/login` <br>
 To Login the user 
 ### Request 
 ```http
@@ -83,7 +83,7 @@ Sample Response Body in Json Form
 
 
          
-## 3. `https://bright-task.herokuapp.com/api/createlinktoken` <br>
+## 3. `http://127.0.0.1:8000/api/createlinktoken` <br>
 To Genrate the Link Token of the user
 ### Request 
 ```http
@@ -110,7 +110,7 @@ Sample Response Body in Json Form
 
 
 
-## 4. `https://bright-task.herokuapp.com/api/get_access_token` <br>
+## 4. `http://127.0.0.1:8000/api/get_access_token` <br>
 To Genrate the Access token of the user ans storing it to the Database
 ### Request 
 ```http
@@ -123,7 +123,7 @@ Header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXN
 
 
 
-## 5. `https://bright-task.herokuapp.com/api/get_account` <br>
+## 5. `http://127.0.0.1:8000/api/get_account` <br>
 To Get the details of the all the account of the user
 ### Request 
 ```http
@@ -137,7 +137,7 @@ Header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXN
 
 
 
-## 6. `https://bright-task.herokuapp.com/api/transactions/get` <br>
+## 6. `http://127.0.0.1:8000/api/transactions/get` <br>
 To Get the details of the all transactions of the user
 ### Request 
 ```http
@@ -151,7 +151,7 @@ Header : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXN
 
 
 
-## 7. `https://bright-task.herokuapp.com/api/listen <br>
+## 7. `http://127.0.0.1:8000/api/listen <br>
 Web hook URl,on being triggred returns account deatils of user
 ### Request 
 ```http
